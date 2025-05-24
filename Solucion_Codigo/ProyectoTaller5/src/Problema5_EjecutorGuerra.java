@@ -21,7 +21,7 @@ public class Problema5_EjecutorGuerra {
             ArrayList<Evento> eventos = new ArrayList<>(
                     Arrays.asList(new Evento(nombresEventos[rand.nextInt(nombresEventos.length)],
                                         LocalDate.of(2025, 5, 15),
-                                        "Europa", "Problemas de territorio", false, paises1),
+                                        "LatinoAmerica", "Problemas de territorio", false, paises1),
                                   new Evento(nombresEventos[rand.nextInt(nombresEventos.length)],
                                         LocalDate.of(2024, 5, 15),
                                         "Europa", "Problemas politicos", true, paises2)));
